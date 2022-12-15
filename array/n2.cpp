@@ -1,23 +1,30 @@
 #include <iostream>
-#include <time.h>
-#include <cmath>
 
 using namespace std;
 
 int main(){
-    srand(time(0));
-    int a,d,n;
-    cin >> n >> a >> d;
-
-    
-    int* arr = new int[n];
-
-    for(int i=0; i < n; i++){
-        arr[i] = a*pow(d,i);
+    int n;
+    cin >> n;
+    int mtx[n][n];
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            cin >> mtx[i][j];
+        }
     }
-
-    for(int i=0; i < n; i++){
-        cout << arr[i] << ' ';
+    int max=mtx[0][0],imax=1,jmax=1;
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < n; j++){
+            if(max<mtx[i][j]){
+                max=mtx[i][j]; 
+                imax=i+1;
+                jmax=j+1;
+            }
+        }
     }
+    cout << imax << " " << jmax;
+
+
+
     return 0;
 }
+    

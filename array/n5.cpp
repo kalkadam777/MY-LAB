@@ -1,24 +1,34 @@
 #include <iostream>
-#include <time.h>
-#include <cmath>
 
 using namespace std;
 
 int main(){
-    int n,c=0;
-    cin >> n;
-    int* arr = new int[n];
+    int n,m;
+    cin >> n >> m;
+    int mtx[n][m];
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m;j++){
+            cin >> mtx[i][j];
+        }
+    }
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m;j++){
+            if((i+j)%2==0 ){
+                mtx[i][j]=mtx[i][j]+1;
+            }
+            else{
+                mtx[i][j]=mtx[i][j]-1;
+            }
+        }
+    }
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m;j++){
+            cout << mtx[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    for(int i=1; i < n; i++){
-       arr[i]=i;
-       cout << arr[i] << ' ';
-    }
-    cout << endl;
-    for(int i=n-1; i >= 0; i--){
-        arr[i]=i*2+1;
-        cout << arr[i] << ' ';
-        c++;
-    }
-    cout << endl << c;
+
+
     return 0;
 }

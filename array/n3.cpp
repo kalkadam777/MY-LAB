@@ -1,22 +1,26 @@
 #include <iostream>
-#include <time.h>
-#include <cmath>
 
 using namespace std;
 
 int main(){
-    int n;
+    int n,d=1;
     cin >> n;
-    int* arr = new int[n];
-    arr[0] = 1;
-    arr[1] = 1; 
-    for(int i=2; i < n; i++){
-      
-       arr[i] = arr[i-2] + arr[i-1];
+    int mtx[n][n];
+    for(int i=0; i<n;i++){
+        for(int j=0; j<n;j++){
+            if(i==n-1-j){
+                cout << d+i;
+            }
+            else{
+                cout << ".";
+            }
+        }
+        cout << endl;
     }
 
-    for(int i=0; i < n; i++){
-        cout << arr[i] << ' ';
-    }
+
+
+
+
     return 0;
 }

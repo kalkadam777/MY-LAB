@@ -6,7 +6,11 @@
 	],
 	"settings": {
 		"files.associations": {
-			"ostream": "cpp"
+			"ostream": "cpp",
+			"iosfwd": "cpp",
+			"string": "cpp",
+			"complex": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }

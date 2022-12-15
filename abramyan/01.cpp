@@ -4,20 +4,16 @@
 using namespace std;
 
 int main() {
-	int n, rez=0;
-	cin >> n;
-	int* arr = new int[n];
-
-	for (int i = 0; i < n; i++)
+	string str;
+	cin >> str;
+	int c=0;
+	for (int i = 0; i < str.length(); i++)
 	{
-		arr[i] =i*i;
-		cout << arr[i] << " ";
+		if(str[i]==0){
+			c++;
+		}
+		cout << c;
 	}
 	
 	return 0;
 }
-/*
-10
-7 77 7 7 7 7 7777 7 7 77
-
-*/

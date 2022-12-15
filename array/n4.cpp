@@ -1,21 +1,31 @@
 #include <iostream>
-#include <time.h>
 #include <cmath>
 
 using namespace std;
 
 int main(){
-    int n;
-    cin >> n;
-    int* arr = new int[n];
-
-    for(int i=0; i < n; i++){
-       arr[i]=i;
-       cout << arr[i] << ' ';
+    int n,m;
+    cin >> n >> m;
+    int mtx[n][m];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            cin >> mtx[i][j];
+        }
+        
     }
-    cout << endl;
-    for(int i=n-1; i >= 0; i--){
-        cout << arr[i] << ' ';
+     for ( int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            if(pow(int (sqrt(mtx[i][j])),2)==mtx[i][j]){
+                mtx[i][j]=sqrt(mtx[i][j]);
+            }
+            cout << mtx[i][j] << "\t";
+        }
+        cout << endl;
     }
     return 0;
 }
+

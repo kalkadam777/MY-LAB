@@ -1,23 +1,33 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main(){
-    int a,d,n,c=0;
-    cin >> n >> a >> d;
-
+    int n,c=1;
+    cin >> n;
+    int mtx[n][n];
+    for(int s = 0; s < n/2.0; s++){
+        for(int j = 0+s; j < n-s; j++){
+        mtx[s][j] = c++;
+    }
     
-    int* arr = new int[n];
-
-    for(int i=0; i < n; i++){
-        arr[i] = a+i*d;
+     for(int i = 1+s; i < n-s; i++){
+       mtx[i][n-1-s] = c++;
     }
-
-    for(int i=0; i < n; i++){
-        cout << arr[i] << ' ';
-        c+=arr[i];
+    
+    for(int j = n-2-s; j >=s; j--){
+        mtx[n-1-s][j] = c++;
     }
-    cout << endl << "sum: " << c;
+    
+    for(int i = n-2-s; i >= 1+s; i--){
+       mtx[i][s] = c++;
+    }
+    }
+    for(int i = 0; i < n; i++){
+        for (int j = 0; j < n; j++){
+            cout << mtx[i][j] << "\t";
+        }
+        cout << endl;
+    }
     return 0;
 }

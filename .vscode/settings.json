@@ -1,5 +1,5 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
     "files.associations": {
         "__bit_reference": "cpp",
         "__bits": "cpp",
@@ -60,6 +60,9 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "set": "cpp",
+        "deque": "cpp",
+        "map": "cpp"
     }
 }
