@@ -1,0 +1,25 @@
+14019 Anuar Issakov 19.01.2004 Karaganda 1900 Head_of_company 1
+15069 Adil Torebekov 21.04.2002 Astana 2600 Manager 1
+17019 Nurzhan Hamzin 04.05.2001 Astana 2300 System_administrator 1
+16019 Aruzhan Rahman 17.10.2003 Alma-ata 2100 Front-end 1
+16029 Damir Tolegen 23.09.2003 Semey 2100 Back-end 0 Vacation
+16039 Erasyl Azamat 11.09.2002 Semey 2100 Back-end 1
+18019 Daniyar Adishov 01.12.2001 Aktobe 2500 Fullstack 0 For family reasons
+14019 Alan Kubanov 29.05.2005 Shymkent 1900 Tester 0 Illness
+14019 Arsen Suendik 30.11.2006 Taraz 1900 Tester 1
+17029 Amina Kim 14.05.2002 Astana 2400 Systems_analyst 0 Absence
+034535 Nuradil Nurgaiyp 03.01.2005 Almaty 2500 Frontend 1
+029323 Darmen Daulet 05.05.2005 Zhymkent 700 cook 1
+324482 Darmenova Amina 04.03.2006 Astana 4050 driver 1
+675756 Koishybai Erkebulak 23.03.2007 Tokyo 2009 home_to_housewives 0 Illness
+234341 Zhumagali Daurbek 03.09.2005 Almaty 40000 student 0 Korporative
+040231 Erkebulan Koishybai 23.01.2005 Almaty 400000 Backend_Developer 1
+564465 Alzhan Daribaev 03.02.2005 Kyzylorda 700000 Frontend_Developer 1
+123532 Emilien Zharasbaev 23.09.2001 Almaty 900000 Web_Developer 1
+084569 Nurbek Kuttybek 19.08.2002 Taldykorgan 4250000 Developer 0
+535353 Aliz Bekbolat 29.09.2004 Karagandy 549999 Full_stack_Developer 1
+524569 Varik Bagzhan 23.05.2007 Nur-Sultan 743553 Voditel 1
+984569 Uzbek Kuttybai 29.08.2004 Almaty 250000 Teacher 1
+039302 Aidar Lev 19.04.1987 Oral 500000 Developer 0
+569302 Islam Dosumbet 19.04.2005 Bishkek 400000 Developer 0
+233402 Danabek Doni 19.04.2003 Astana 293999 Developer 0

@@ -1,4 +1,0 @@
-"040231","Erkebulan","Koishybai","23.01.2005","Almaty",400000,"Backend Developer",1
-"564465","Alzhan","Daribaev","03.02.2005","Almaty",400000,"Frontend Developer",1
-"123532","Emilien","Zharasbaev","23.09.2004","Almaty",400000,"Frontend Developer",1
-"984569","Nurbek","Kuttybek","19.08.2004","Almaty",400000,"Frontend Developer",1
